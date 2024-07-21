@@ -1,6 +1,8 @@
-h1{
+.hero-header{
     text-align: center;
     font-size: 60px;
+    font-family: "Pacifico";
+    font-weight: 400;
 }
 
 .logo{
@@ -13,6 +15,7 @@ h1{
     align-items: center;
     padding-top: 10px;
     gap: 10px;
+    font-family: Pacifico;
 }
 
 .paw{
@@ -28,4 +31,19 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.btn-primary{
+    background-color:#D5B7F3 ;
+    color: black;
+    border-radius: 20px;
+    border-color: #D5B7F3;
+}
+
+.paw-btn{
+    border-radius: 50%;
+}
+
+.nav-link{
+    font-family: "Pacifico";
 }
